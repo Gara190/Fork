@@ -22,7 +22,7 @@ int main(void) {
             // CODICE DEL FIGLIO
             printf("Processo figlio %d: PID=%d, PPID=%d\n",
                    i, getpid(), getppid());
-            exit(0);   
+            exit(0);
         }
     }
 
